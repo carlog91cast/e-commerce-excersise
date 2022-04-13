@@ -1,0 +1,48 @@
+/* SELETTORE {
+proprietà: valore;
+proprietà: valore;
+}
+*/
+
+.supercontenitore{
+  position:relative;
+  left: 50%;
+}
+.supercontenitore1{
+  position:relative;
+  left: 50%;
+  top:10px;
+}
+
+.contenitore{
+  position: relative;
+  display: inline-block;
+}
+.contenitore1{
+  position: relative;
+  display: inline-block;
+
+}
+
+
+/* etichette sconto */
+
+.contenitore p{
+  position: absolute;
+  color: black;
+  background-color: green;
+  display: inline-block;
+  top: 0;
+  right: 0;
+  margin:0;
+}
+
+.contenitore1 p{
+  position: absolute;
+  color: black;
+  background-color: red;
+  display: inline-block;
+  top: 0;
+  right: 0;
+  margin:0;
+}
